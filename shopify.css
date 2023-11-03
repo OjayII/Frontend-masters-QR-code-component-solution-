@@ -1,0 +1,463 @@
+@media only screen and (max-width: 2560px) and (min-width: 769px){   
+    .nonedesktop {
+        display: none;
+    }
+    body :not(#deskmsg, #deskmsg > h2, #deskmsg > h6, #deskmsg > a) {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('images/flat-engineering-construction-illustrated_23-2148892788.jpg');
+        background-size: cover;
+    }
+    #deskmsg {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: black;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    #deskmsg > h2 {
+        width: 90%;
+    }
+    #row1 {
+        display: flex;
+        height: 30px;
+    }
+    #row1 > h4 {
+        width: 20%;
+    }
+    #xbt {
+        width: 25px;
+        height: 20px;
+        background-color: white;
+        color: black;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin-left: 12%;
+        margin-right: 3%;
+        cursor: pointer;
+        font-weight: bold;
+        
+    }
+    #gsbtt {
+        width: 10%;
+    }
+    #lmbtt {
+        width: 10%;
+    }
+    
+    #bagdesk {
+        width: 14%;
+        height: auto;
+        margin-top: px;
+        margin-bottom: px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nonemobile {
+        display: none;
+    }
+    #bagmob {
+        width: 12%;
+        height: auto;
+        margin-top: 12px;
+        margin-bottom: 5px;
+    }
+    #bringtext {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .futuretext {
+        width: 86%;
+        margin-left: 7%;
+        margin-right: 7%;
+        font-size: 15px;
+    }
+    .futuretext > p {
+        margin-top: 2px;
+        padding-top: 0px;
+    }
+    .tryspotify {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    
+    h6 {
+    }
+    .formdiv {
+    }
+    #lappy {
+        width: 76%;
+        height: auto;
+        margin-top: 70px;
+        margin-bottom: 35px;
+        margin-left: 12%;
+        margin-right: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #allicons {
+
+    }
+    .leftalign {
+        text-align: left;
+        margin-left: 4%;
+        margin-right: 3%;
+    }
+    #logocontainer {
+        max-width: 100%;
+        width: 84%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 8%;
+        margin-right: 8%;
+        display: ;
+        justify-content: ;
+    }        
+    .imglogo {
+        display: flex;
+        justify-content: space-between;
+        max-width: 50%;
+        height: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: px;
+        margin-right: px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #allicons > p {
+        margin-top: 9px;
+        font-size: 13px;
+    }
+
+    #allicons > h4 {
+        margin-bottom: 2px;
+        margin-top: 9px;
+    }
+    
+    
+    .line {
+        height: 0px;
+        width: 92%;
+        border: 1px solid rgb(167, 158, 158);
+        border-radius: 60px;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: none;
+    }
+    
+    .separatebg > h1 {
+        padding-bottom: 5px;
+        line-height: 30px;
+    }
+    .seperatebg > p {
+        margin-top: 6px;
+        line-height: 50px;
+    }
+    .seperatebg > input {
+        margin-top: 40px;
+    }
+    .separatebg > button {
+        padding-bottom: 15px;
+    }
+    #try {
+        margin-top: 10px;
+    }
+    #free: {
+        margin-bottom: ;: 600%;
+        padding-bottom: 600%;
+    }
+    .freetrial {
+        font-size: 15px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #faqbox {
+       margin-top: 70px;
+       margin-bottom: px;
+    }
+    
+    
+}
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: ;
+    background-color: #F0FFF8;
+}
+#row1 {
+    background-color: white;
+}
+#xrow {
+        width: px;
+        height: px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+    #xrow > h4 {
+        margin-left: 23%;
+    }
+    #xbut {
+        width: 25px;
+        height: 20px;
+        background-color: white;
+        color: black;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin-left: 12%;
+        margin-right: 3%;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    #learnrow {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 7px;
+    }
+    #gsbtt {
+        width: 37%;
+        height: 47px;
+        margin-left: 11%;
+        border-radius: 50px;
+        background-color: black;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #gsbtt > a {
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: ;
+    }
+    #lmbtt {
+        background-color: white;
+        color: black;
+        border: 3px solid black;
+        width: 37%;
+        height: 41px;
+        margin-right: 11%;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #lmbtt > a {
+        color: black;
+        text-decoration: none;
+        margin: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .plus {
+        width: 80%;
+        text-align: left;        
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .seperatebg {
+        background: radial-gradient(ellipse at bottom left, #81B032 3%, #0a4746 40% );
+        padding-top: 70px;
+        padding-bottom: 50px; 
+        color: white;
+        font-weight: 100;
+        height: 450px;
+        display: flex-box;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        align-content: center;
+        vertical-align: center;
+    }
+    .button {
+        background-color: black; 
+        box-sizing: border-box;
+        height: 55px; 
+        width: 88%;
+        border-radius: 50px;
+        border-width: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 2px;
+        cursor: ;
+        margin-left: 6%;
+        margin-right: 6%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button {
+        border-radius: 50px;
+    }
+    .button > a {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 15px;
+        color: white;
+        margin: 0px;
+        padding-left: 35%;
+        padding-right: 35%;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    input[type="email"]:hover {
+        border-color: blueviolet;
+    }
+    input[type="email"] {
+        font-size: 9px;
+        box-sizing: border-box;
+        font-size: 15px;
+        height: 55px; 
+        width: 88%;
+        border-radius: 50px;     
+        border: 1px solid grey;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    input {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .a {
+        margin-bottom: 130px;
+        margin-top: 40px;
+    }
+    a {
+        font-size: 16px;
+        font-weight: 780;
+        color: black;
+    }
+#topgrad {
+    background: linear-gradient(to bottom, #B4EEFA 0%, #C4EEF4 50%, #F0FFF8 100%);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#toggle-button {
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 30px;
+            
+}
+        
+#toggle-button2 {
+    width: 30px;
+    height: 30px;
+    background-color: #000000;      color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 30px;
+            
+}
+#toggle-button3 {
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 30px;
+            
+}
+#toggle-button4 {
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 30px;
+            
+}
+        
+#additional-text {
+    display: none;
+}
+#additional-text2 {
+    display: none;
+}
+#additional-text3 {
+    display: none;
+}
+#additional-text4 {
+    display: none;
+}
+        
+        
+.can {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 3%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.can > p {
+    font-weight: bold;
+    font-size: 20px;
+    width: 80%;
+    text-align: left;
+}
+.ht > p {
+    width: 80%;
+    margin-left: 4%;
+    text-align: left;
+}
