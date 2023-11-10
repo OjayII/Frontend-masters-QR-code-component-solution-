@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopify</title>
+    <title>shopifyClone</title>
     <link rel="stylesheet" href="shopify.css">
 </head>
 <body>
-  
+  <div id="body">
    <div id="row1">
        <div id="xrow">
            <h4>Start your free-trial today</h4>
-           <button class="nonedesktop" id="xbut">X</button>
+           <button class="nonedesktop" id="xbut" onclick="document.getElementById('row1').style.display='none'
+         document.getElementById('topgrad').style.marginTop='0px'">X</button>
        </div>
        <div id="learnrow">
           <!-- <button id="gsbtt">Get started</button>
@@ -50,7 +51,7 @@
     <div>
         <input class="formdiv" type="email" name="" id="emailform" placeholder="Enter your email adress">
         <div class="button">
-            <a href="https://accounts.shopify.com/store-create?language=en&locale=en&signup_page=https%3A%2F%2Fwww.shopify.com%2Ffree-trial&signup_types%5B%5D=paid_trial_experience&_y=e79e8465-7796-4c76-8dc0-02e695b6d500&_s=e4d34700-7fe7-4854-af68-91144caa9d52&_p=a71fed2f-99fe-4615-835a-91224acd4b62">Start free trial</a>
+            <a href="">Start free trial</a>
         </div>
         <!-- <input type="button" value="Start free trial"> 
         <button type="button">Start free trial</button>  -->
@@ -232,21 +233,10 @@ If you need extra help, you can contact our support team, or visit the Shopify E
     <script src="shopify.js"></script>
    </div>
    <div id="deskmsg" class="nonemobile">
-       <h2>Desktop version still under construction.</h2>
-       <h6>Image by <a href="https://www.freepik.com/free-vector/flat-engineering-construction-illustrated_13107137.htm#query=construction%20illustration&position=0&from_view=keyword&track=ais"><h6>Freepik</h6></a></h6>
+       <img src="images/flat-engineering-construction-illustrated_23-2148892788.jpg" alt="">
+       <h2>Desktop version still under construction. </h2>
+       <h6>Image by <a href="https://www.freepik.com/free-vector/flat-engineering-construction-illustrated_13107137.htm#query=construction%20illustration&position=0&from_view=keyword&track=ais">Freepik</a></h6>
    </div>
-</html>
 
-
-<!--
-    ToDo
-        Build show/hide button
-        Reduce lappy size
-        Reduce allicons size
-        Add top background gradient
-        Add shopify top logo 
-        Refine all text indentation and width
-        Refine all mobile.
-        Proceed to desktop responsivity.
-    End
--->
+</body>
+    </html>
