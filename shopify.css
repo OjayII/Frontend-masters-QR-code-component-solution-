@@ -6,10 +6,19 @@
         display: none;
     }
     body {
+      /*  margin: 0;
+        padding: 0;
+        background-image: url('images/flat-engineering-construction-illustrated_23-2148892788.jpg');
+        background-size: cover; */
         background-color: white;
     }
 
     #deskmsg {
+       /* position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; */
         color: black;
         font-size: 24px;
         display: flex;
@@ -114,7 +123,7 @@
     }
     #logocontainer {
         max-width: 100%;
-        width: 84%;
+        width: %;
         padding-left: 0px;
         padding-right: 0px;
         margin-left: 8%;
@@ -207,7 +216,7 @@
 #row1 {
     background-color: white;
     width: 100%;
-    height: 120px;
+    min-height: 130px;
     position: fixed;
     top: 0;
 }
@@ -222,6 +231,7 @@
     }
     #xrow > h4 {
         margin-left: 23%;
+        min-width: 80px;
     }
     #xbut {
         width: 25px;
@@ -249,13 +259,14 @@
         margin-left: 11%;
         border-radius: 50px;
         background-color: black;
-        color: black;
         display: flex;
         align-items: center;
         justify-content: center;
-        
+        color: white;
+        text-decoration: none;
+        font-weight: 800;
     }
-    #gsbtt > a {
+    #sbtt > a {
         color: white;
         text-decoration: none;
         margin: 0px;
@@ -264,7 +275,7 @@
         padding-top: 15px;
         padding-bottom: 15px;
         width: ;
-    }
+    }    
     #lmbtt {
         background-color: white;
         color: black;
@@ -276,15 +287,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    #lmbtt > a {
-        color: black;
+        font-weight: 800;
         text-decoration: none;
-        margin: 0px;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 15px;
-        padding-bottom: 15px;
     }
 .plus {
         width: 80%;
@@ -309,34 +313,18 @@
         vertical-align: center;
     }
     .button {
-        background-color: black; 
-        box-sizing: border-box;
-        height: 55px; 
-        width: 88%;
-        border-radius: 50px;
-        border-width: 0px;
-        padding-bottom: 0px;
+        background-color: black;
+        box-sizing: border-box;      
+        min-height: 55px; 
+        min-width: 88%;
+        border-r        adius: 50px;
         margin-bottom: 2px;
-        cursor: ;
-        margin-left: 6%;
-        margin-right: 6%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    button {
-        border-radius: 50px;
-    }
-    .button > a {
+        cursoinline
+        ln-items: center;        -inline: 6%;
         text-decoration: none;
-        font-weight: normal;
         font-size: 15px;
         color: white;
-        margin: 0px;
-        padding-left: 35%;
-        padding-right: 35%;
-        padding-top: 6%;
-        padding-bottom: 6%;
+        font-weight: normal;
     }
     input[type="email"]:hover {
         border-color: blueviolet;
@@ -345,31 +333,42 @@
         font-size: 9px;
         box-sizing: border-box;
         font-size: 15px;
-        height: 55px; 
         width: 88%;
+        height: 55px; 
+        display: block;
         border-radius: 50px;     
         border: 1px solid grey;
-        margin-left: 6%;
-        margin-right: 6%;
-    }
-    input {
-        display: block;
-        margin-top: 10px;
         margin-bottom: 10px;
-        text-align: center;
-    }
+        margin-right: 6%;
+        margin-inline: 6%;
+        padding-left: 10%;
+        }
+        .formbutton {
+           width: 88%;
+           height: 55px;  
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        border-radius: 50px; 
+        margin-inline: 6%;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        font-weight: normal;
+        }
     .a {
         margin-bottom: 130px;
         margin-top: 40px;
     }
-    a {
+    .a > a {
         font-size: 16px;
         font-weight: 780;
         color: black;
     }
 #topgrad {
     background: linear-gradient(to bottom, #B4EEFA 0%, #C4EEF4 50%, #F0FFF8 100%);
-    margin-top: 120px;
+    margin-top: 130px;
 }
 img {
     max-width: 100%;
@@ -463,5 +462,5 @@ img {
     width: 80%;
     margin-left: 4%;
     text-align: left;
-            }
+        }
     
