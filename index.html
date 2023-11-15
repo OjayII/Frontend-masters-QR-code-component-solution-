@@ -3,35 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shopifyClone</title>
+    <title>Shopify</title>
     <link rel="stylesheet" href="shopify.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/shopifymob.png">
 </head>
 <body>
   <div id="body">
    <div id="row1">
        <div id="xrow">
            <h4>Start your free-trial today</h4>
-           <button class="nonedesktop" id="xbut" onclick="document.getElementById('row1').style.display='none'
+          <button class="nonedesktop" id="xbut" onclick="document.getElementById('row1').style.display='none'
          document.getElementById('topgrad').style.marginTop='0px'">X</button>
        </div>
        <div id="learnrow">
           <!-- <button id="gsbtt">Get started</button>
            <button id="lmbtt">Learn more</button>  -->
-           <div id="gsbtt">
-               <a href="https://accounts.shopify.com/store-create?language=en&locale=en&signup_page=https%3A%2F%2Fwww.shopify.com%2Ffree-trial&signup_types%5B%5D=paid_trial_experience&_y=e79e8465-7796-4c76-8dc0-02e695b6d500&_s=e4d34700-7fe7-4854-af68-91144caa9d52&_p=a71fed2f-99fe-4615-835a-91224acd4b62">Get started</a>
-           </div>
-           <div id="lmbtt">
-               <a href="https://www.shopify.com/blog/">Learn more</a>
-           </div>
+               <a id="gsbtt" href="https://accounts.shopify.com/store-create?language=en&locale=en&signup_page=https%3A%2F%2Fwww.shopify.com%2Ffree-trial&signup_types%5B%5D=paid_trial_experience&_y=e79e8465-7796-4c76-8dc0-02e695b6d500&_s=e4d34700-7fe7-4854-af68-91144caa9d52&_p=a71fed2f-99fe-4615-835a-91224acd4b62">Get started</a>
+           
+           <a id="lmbtt" href="https://www.shopify.com/blog/">Learn More</a>
        </div>
        <button class="nonemobile" id="xbt">X</button>
    </div>
    <div id="topgrad">
     <div class="nonedesktop">
-        <img src="images/shopifymob.png" id="bagmob" alt="">
+        <a href="">
+            <img src="images/shopifymob.png" id="bagmob" alt="">
+        </a>
     </div>
     <div class="nonemobile"">
-        <img src="images/shopifydesk.png" id="bagdesk" alt="">
+        <a href="https://ojayii.github.io/shopifyclone/">
+            <img src="images/shopifydesk.png" id="bagdesk" alt="">
+        </a>
     </div>
     <div class="nonedesktop">
         <div id="bringtext">
@@ -50,9 +52,7 @@
     </div>
     <div>
         <input class="formdiv" type="email" name="" id="emailform" placeholder="Enter your email adress">
-        <div class="button">
-            <a href="">Start free trial</a>
-        </div>
+        <a class="formbutton" href="https://accounts.shopify.com/store-create?language=en&locale=en&signup_page=https%3A%2F%2Fwww.shopify.com%2Ffree-trial&signup_types%5B%5D=paid_trial_experience&_y=e79e8465-7796-4c76-8dc0-02e695b6d500&_s=e4d34700-7fe7-4854-af68-91144caa9d52&_p=72ccf8ab-907e-40b6-b73d-b634a5c38665">Start free trial</a>
         <!-- <input type="button" value="Start free trial"> 
         <button type="button">Start free trial</button>  -->
     </div>
@@ -138,9 +138,7 @@
             <p>Start your free trial and enjoy 3 months of Shopify for $1/month on select plans.</p>
         </div>
         <input class="formdiv" type="email" name="" id="emailform" placeholder="Enter your email adress">
-        <div class="button">
-            <a href="https://accounts.shopify.com/store-create?language=en&locale=en&signup_page=https%3A%2F%2Fwww.shopify.com%2Ffree-trial&signup_types%5B%5D=paid_trial_experience&_y=e79e8465-7796-4c76-8dc0-02e695b6d500&_s=e4d34700-7fe7-4854-af68-91144caa9d52&_p=72ccf8ab-907e-40b6-b73d-b634a5c38665">Start free trial</a>
-        </div>
+        <a class="formbutton" href="https://accounts.shopify.com/store-create?language=en&locale=en&signup_page=https%3A%2F%2Fwww.shopify.com%2Ffree-trial&signup_types%5B%5D=paid_trial_experience&_y=e79e8465-7796-4c76-8dc0-02e695b6d500&_s=e4d34700-7fe7-4854-af68-91144caa9d52&_p=72ccf8ab-907e-40b6-b73d-b634a5c38665">Start free trial</a>
       
         <div class="nonedesktop">
             <div id="try" class="tryspotify">
@@ -239,4 +237,19 @@ If you need extra help, you can contact our support team, or visit the Shopify E
    </div>
 
 </body>
-    </html>
+</html>
+
+
+<!--
+    ToDo
+        Build show/hide button
+        Reduce lappy size
+        Reduce allicons size
+        Add top background gradient
+        Add shopify top logo 
+        Refine all text indentation and width
+        Refine all mobile.
+        Proceed to desktop responsivity.
+    End
+-->
+                
