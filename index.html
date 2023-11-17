@@ -12,12 +12,9 @@
    <div id="row1">
        <div id="xrow">
            <h4>Start your free-trial today</h4>
-          <button class="nonedesktop" id="xbut" onclick="document.getElementById('row1').style.display='none'
-         document.getElementById('topgrad').style.marginTop='0px'">X</button>
+          <button class="nonedesktop" id="xbut" onclick="xBtn()">X</button>
        </div>
        <div id="learnrow">
-          <!-- <button id="gsbtt">Get started</button>
-           <button id="lmbtt">Learn more</button>  -->
                <a id="gsbtt" href="https://accounts.shopify.com/store-create?language=en&locale=en&signup_page=https%3A%2F%2Fwww.shopify.com%2Ffree-trial&signup_types%5B%5D=paid_trial_experience&_y=e79e8465-7796-4c76-8dc0-02e695b6d500&_s=e4d34700-7fe7-4854-af68-91144caa9d52&_p=a71fed2f-99fe-4615-835a-91224acd4b62">Get started</a>
            
            <a id="lmbtt" href="https://www.shopify.com/blog/">Learn More</a>
@@ -160,13 +157,12 @@
     <div class="leftalign" id="faqbox">
         <h2>FAQ</h2>
     </div>
-    <div class="can">
+    <div onclick="toggleText()" class="can">
         <p>What is Shopify and how does it work?</p>
-        <button id="toggle-button" onclick="toggleText()">+</button>
+        <button id="toggle-button" >+</button>
     </div>
-    
     <div class="ht">
-        <p id="additional-text">Shopify is a complete commerce platform that lets you start, grow, and manage a business. <br>
+            <p id="additional-text">Shopify is a complete commerce platform that lets you start, grow, and manage a business. <br>
 <br>
 With Shopify, you can: <br>
 <br>
@@ -178,11 +174,11 @@ With Shopify, you can: <br>
 <br>
 <br>
 Shopify is completely cloud-based and hosted, which means you don't have to worry about upgrading or maintaining software or web servers. This gives you the flexibility to access and run your business from almost anywhere, including your mobile device.</p>
-    </div>
+        </div>
     <div class="line"></div>
-    <div class="can">
+    <div onclick="toggleText2()" class="can">
         <p>How much does Shopify cost?</p>
-        <button id="toggle-button2" onclick="toggleText2()">+</button>
+        <button id="toggle-button2" >+</button>
     </div>
     
     <div class="ht">
@@ -191,9 +187,9 @@ Shopify is completely cloud-based and hosted, which means you don't have to worr
 After your trial expires, choose a pricing plan that suits the size and stage of your business.</p>
     </div>
     <div class="line"></div>
-    <div class="can">
+    <div onclick="toggleText3()" class="can">
         <p>Can I use my own domain name with Shopify?</p>
-        <button id="toggle-button3" onclick="toggleText3()">+</button>
+        <button id="toggle-button3" >+</button>
     </div>
     
     <div class="ht">
@@ -204,9 +200,9 @@ If you have an existing domain name, you can connect it to Shopify from your sto
 If you don't have a domain name yet, you can either buy one through Shopify or a third-party provider.</p>
     </div>
     <div class="line"></div>
-      <div class="can">
+      <div onclick="toggleText4()" class="can">
         <p>Do I need to be a designer or developer to use Shopify?</p>
-        <button id="toggle-button4" onclick="toggleText4()">+</button>
+        <button id="toggle-button4" >+</button>
     </div>
     
     <div class="ht">
@@ -232,7 +228,7 @@ If you need extra help, you can contact our support team, or visit the Shopify E
    </div>
    <div id="deskmsg" class="nonemobile">
        <img src="images/flat-engineering-construction-illustrated_23-2148892788.jpg" alt="">
-       <h2>Desktop version still under construction. 🥲</h2>
+       <h2>Desktop version still under construction. </h2>
        <h6>Image by <a href="https://www.freepik.com/free-vector/flat-engineering-construction-illustrated_13107137.htm#query=construction%20illustration&position=0&from_view=keyword&track=ais">Freepik</a></h6>
    </div>
 
@@ -252,4 +248,4 @@ If you need extra help, you can contact our support team, or visit the Shopify E
         Proceed to desktop responsivity.
     End
 -->
-                
+    
