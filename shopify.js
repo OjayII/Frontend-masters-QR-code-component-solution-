@@ -1,3 +1,7 @@
+function xBtn() {
+         document.getElementById('row1').style.display='none'
+         document.getElementById('topgrad').style.marginTop='0px'
+}
 function toggleText() {
             var button = document.getElementById('toggle-button');
             var additionalText = document.getElementById('additional-text');
